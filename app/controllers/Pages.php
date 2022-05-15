@@ -26,6 +26,20 @@
 
       $this->view('pages/register', $data);
     }
+    public function professors(){
+      $data = [
+        'title' => 'professors'
+      ];
+
+      $this->view('pages/professors', $data);
+    }
+    public function addProfessor(){
+      $data = [
+        'title' => 'addProfessor'
+      ];
+
+      $this->view('pages/addProfessor', $data);
+    }
     
     
    
